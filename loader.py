@@ -34,7 +34,6 @@ def get_pc_username():
 #====================================================================================================#
 
 print_slow('Loading...\n')
-# check if connection is available
 try:
     requests.get('https://google.com')
 except:
